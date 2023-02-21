@@ -27,9 +27,9 @@ export const Card = (props) => {
             <div className="card-footer d-flex justify-content-between bg-white mt-1">
                 <Link
                     to={`/${props.type}/${props.id}`}
-                    className="btn btn-primary"
+                    className="btn btn-success"
                 >
-                    Learn more!
+                    See more!
                 </Link>
                 <button
                     className={

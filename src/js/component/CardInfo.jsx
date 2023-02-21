@@ -22,7 +22,7 @@ export const CardInfo = () => {
         <div className="container mt-5">
             <div className="d-flex justify-content-between">
                 {
-                    itemDetails === undefined ? <div>Loading...</div> :
+                    itemInfo === undefined ? <div>Loading...</div> :
                         <>
                             {
                                 params.type === "people" ?
@@ -53,8 +53,9 @@ export const CardInfo = () => {
                 }
             </div>
             <Link to="/"
-                className="mt-4 btn btn-warning btn-lg">
-                Back Home
+                className="mt-4 btn btn-danger btn-lg fas fa-backward fa-1.5x">
+                &nbsp;
+                 Home
             </Link>
         </div>
     );

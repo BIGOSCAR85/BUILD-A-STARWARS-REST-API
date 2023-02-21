@@ -1,10 +1,9 @@
 /* 
     General Styles
 */
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 
 * {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 body {
@@ -30,9 +29,13 @@ body {
 .char-container::-webkit-scrollbar-thumb {
   background-color: rgb(48, 225, 193);
   outline: 1px solid rgb(212, 37, 37);
-  border-radius: 15px;
+  border-radius: 10px;
+  height: 1000px;
 }
 
 .title {
   font-size: 90px;
+  color: white;
+  display: grid;
+  text-align: center;
 }
