@@ -34,6 +34,7 @@ export const CardInfo = () => {
                                         height="auto"
                                         width="400px"
                                         alt="..." />
+                                    
                             }
                             <div className="ms-5">
                                 <h1>{itemInfo.name}</h1>

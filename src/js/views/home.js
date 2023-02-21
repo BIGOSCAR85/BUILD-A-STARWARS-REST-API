@@ -17,9 +17,9 @@ export const Home = () => {
   return (
     <div className="container">
       <div>
-        <h1 className="title">Characters</h1>
+        <h1 className="title d-flex justify-content-center">Characters</h1>
       </div>
-      <div className="d-flex flex-row char-container">
+      <div className="d-flex char-container">
         {store.characters.length <= 0 ? (
           <div>Loading...</div>
         ) : (
@@ -44,9 +44,9 @@ export const Home = () => {
       </div>
 
       <div>
-        <h1 className="title">Planets</h1>
+        <h1 className="title d-flex justify-content-center">Planets</h1>
       </div>
-      <div className="d-flex flex-row char-container">
+      <div className="d-flex char-container">
         {store.planets.length <= 0 ? (
           <div>Loading...</div>
         ) : (

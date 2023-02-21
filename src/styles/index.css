@@ -36,6 +36,4 @@ body {
 .title {
   font-size: 90px;
   color: white;
-  display: grid;
-  text-align: center;
 }
