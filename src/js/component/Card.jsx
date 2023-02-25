@@ -8,7 +8,7 @@ export const Card = (props) => {
     const { store, actions } = useContext(Context);
     
     return (
-        <div className="card col-3 mx-2" style={{ width: "20rem" }}>
+        <div className="card col-3 mx-2" style={{ width: "12rem" }}>
             <img src={props.picture} className="card-img-top" alt="..." />
             <div className="card-header">
                 <h2 className="card-title">{props.item.name}</h2>
@@ -18,7 +18,7 @@ export const Card = (props) => {
                     Object.keys(props.item).map((key) => {
                         if (properties.includes(key)) {
                             return <p className="card-text m-0">
-                                <b className="text-danger">{key}</b>
+                                <b className="text-ligth">{key}</b>
                                 :   {props.item[key]}</p>
                         }
                     })

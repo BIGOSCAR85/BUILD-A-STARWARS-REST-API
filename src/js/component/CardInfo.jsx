@@ -27,12 +27,12 @@ export const CardInfo = () => {
                             {
                                 params.type === "people" ?
                                     <img src={img_character}
-                                        height="auto"
-                                        width="400px"
-                                        alt="..-" />
+                                        height="400px"
+                                        width="300px"
+                                        alt="..." />
                                     : <img src={img_planet}
-                                        height="auto"
-                                        width="400px"
+                                        height="400px"
+                                        width="300px"
                                         alt="..." />
                                     
                             }
