@@ -36,7 +36,7 @@ export const CardInfo = () => {
                                         alt="..." />
                                     
                             }
-                            <div className="ms-5">
+                            <div className="ms-5 text-light">
                                 <h1>{itemInfo.name}</h1>
                                 <hr></hr>
                                 <div className="d-flex flex-wrap mt-5">
@@ -44,7 +44,7 @@ export const CardInfo = () => {
                                         if (properties.includes(key)) {
                                             return <div className="mx-4">
                                                 <h3 className="text-danger">{key}</h3>
-                                                <p className="text-center">{itemInfo[key]}</p>
+                                                <p className="text-light">{itemInfo[key]}</p>
                                             </div>
                                         }
                                     })}
